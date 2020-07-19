@@ -16,7 +16,7 @@ import random
 from googletrans import Translator
 # put your toen here
 
-BOT_TOKEN= "1278486866:AAE_UjGv8h3iyQ9CPyozoMv0FJkEQ2EXtgc"
+BOT_TOKEN= "*************"
 updater= Updater(BOT_TOKEN)  #Bot Token is given by BotFather on Telegram while creating bot. 
 
 def translate(sentence):

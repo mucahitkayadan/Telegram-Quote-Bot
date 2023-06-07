@@ -1,61 +1,60 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="UTF-8">
-    <title>Telegram Quote Bot</title>
-</head>
-<body>
-    <h1>Telegram Quote Bot</h1>
+ Telegram Quote Bot
 
-    <p>This is a Telegram bot that retrieves quotes from Wikiquote and provides additional functionality such as inline query support.</p>
+Telegram Quote Bot
+==================
 
-    <h2>Features</h2>
-    <ul>
-        <li>Retrieve quotes by searching for the name of the person who said the quote.</li>
-        <li>Get the quote of the day.</li>
-        <li>Inline query support to generate formatted versions of the query text (uppercase, bold, and italic).</li>
-    </ul>
+This is a Telegram bot that retrieves quotes from Wikiquote and provides additional functionality such as inline query support.
 
-    <h2>Requirements</h2>
-    <ul>
-        <li>Python 3.x</li>
-        <li><code>python-telegram-bot</code> library</li>
-        <li><code>wikiquote</code> library</li>
-        <li><code>googletrans</code> library</li>
-    </ul>
+Features
+--------
 
-    <h2>Installation</h2>
-    <ol>
-        <li>Clone the repository:</li>
-    </ol>
-    <pre><code>git clone https://github.com/yourusername/telegram-quote-bot.git</code></pre>
-    <ol start="2">
-        <li>Install the required dependencies:</li>
-    </ol>
-    <pre><code>pip install -r requirements.txt</code></pre>
-    <ol start="3">
-        <li>Obtain a bot token from BotFather on Telegram.</li>
-        <li>Create a <code>config.py</code> file and define the bot token:</li>
-    </ol>
-    <pre><code>BOT_TOKEN = "YOUR_BOT_TOKEN"</code></pre>
-    <ol start="5">
-        <li>Run the bot:</li>
-    </ol>
-    <pre><code>python main.py</code></pre>
+*   Retrieve quotes by searching for the name of the person who said the quote.
+*   Get the quote of the day.
+*   Inline query support to generate formatted versions of the query text (uppercase, bold, and italic).
 
-    <h2>Usage</h2>
-    <ul>
-        <li>Start the bot by sending the <code>/start</code> command.</li>
-        <li>Use the <code>/help</code> command to get information about how to use the bot.</li>
-        <li>Send a message starting with <code>quote</code> followed by the name of the person to retrieve a quote from Wikiquote. For example, <code>quote Ataturk</code>.</li>
-        <li>Use the <code>daily</code> command to get the quote of the day.</li>
-        <li>Inline queries are supported. Type <code>@your_bot_username</code> followed by your query to generate formatted versions of the query text.</li>
-    </ul>
+Requirements
+------------
 
-    <h2>Contributing</h2>
-    <p>Contributions are welcome! If you have any suggestions, bug reports, or feature requests, please open an issue or submit a pull request.</p>
+*   Python 3.x
+*   `python-telegram-bot` library
+*   `wikiquote` library
+*   `googletrans` library
 
-    <h2>License</h2>
-    <p>This project is licensed under the <a href="LICENSE">MIT License</a>.</p>
-</body>
-</html>
+Installation
+------------
+
+1.  Clone the repository:
+
+    git clone https://github.com/yourusername/telegram-quote-bot.git
+
+2.  Install the required dependencies:
+
+    pip install -r requirements.txt
+
+3.  Obtain a bot token from BotFather on Telegram.
+4.  Create a `config.py` file and define the bot token:
+
+    BOT_TOKEN = "YOUR_BOT_TOKEN"
+
+5.  Run the bot:
+
+    python main.py
+
+Usage
+-----
+
+*   Start the bot by sending the `/start` command.
+*   Use the `/help` command to get information about how to use the bot.
+*   Send a message starting with `quote` followed by the name of the person to retrieve a quote from Wikiquote. For example, `quote Ataturk`.
+*   Use the `daily` command to get the quote of the day.
+*   Inline queries are supported. Type `@your_bot_username` followed by your query to generate formatted versions of the query text.
+
+Contributing
+------------
+
+Contributions are welcome! If you have any suggestions, bug reports, or feature requests, please open an issue or submit a pull request.
+
+License
+-------
+
+This project is licensed under the [MIT License](LICENSE).

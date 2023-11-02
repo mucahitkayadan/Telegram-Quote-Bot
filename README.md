@@ -25,7 +25,7 @@ Installation
 
 1.  Clone the repository:
 
-    git clone https://github.com/yourusername/telegram-quote-bot.git
+    git clone https://github.com/mucahitkayadan/telegram-quote-bot.git
 
 2.  Install the required dependencies:
 
